@@ -8,4 +8,5 @@ sh -c 'echo -e "[Atom]\nname=Atom Editor\nbaseurl=https://packagecloud.io/AtomEd
 
 sudo zypper --gpg-auto-import-keys refresh
 
+sudo zypper --non-interactive install gconf2
 sudo zypper --non-interactive install atom
