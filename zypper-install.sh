@@ -17,6 +17,7 @@ zypper --non-interactive dup --from packman-multimedia --allow-vendor-change
 bash scripts/zypper/atom-install.sh
 bash scripts/zypper/crystal-install.sh
 bash scripts/zypper/devel-basis-install.sh
+bash scripts/zypper/elixir-install.sh
 bash scripts/zypper/fish-install.sh
 bash scripts/zypper/google-chrome-install.sh
 bash scripts/zypper/node-install.sh
