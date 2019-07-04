@@ -4,4 +4,4 @@ then
     exit 1
 fi
 
-sudo zypper --non-interactive install tig
+zypper --non-interactive install tig
