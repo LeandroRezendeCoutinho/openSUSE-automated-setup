@@ -29,6 +29,7 @@ bash flatpak-setup.sh
 * fish shell
 * google chrome
 * tig
+* tmux
 * visual studio code
 
 ##### Extra list

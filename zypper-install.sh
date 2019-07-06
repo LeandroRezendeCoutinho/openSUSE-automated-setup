@@ -13,6 +13,7 @@ bash scripts/zypper/fish-install.sh
 bash scripts/zypper/google-chrome-install.sh
 bash scripts/zypper/node-install.sh
 bash scripts/zypper/tig-install.sh
+bash scripts/zypper/tmux-install.sh
 bash scripts/zypper/visual-studio-code-install.sh
 
 #disabled area
