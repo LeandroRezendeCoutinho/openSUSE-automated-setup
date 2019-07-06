@@ -14,12 +14,15 @@ zypper ar -cfp 90 http://ftp.gwdg.de/pub/linux/misc/packman/suse/openSUSE_Tumble
 zypper --non-interactive dup --from packman-essentials --allow-vendor-change
 zypper --non-interactive dup --from packman-multimedia --allow-vendor-change
 
+
 bash scripts/zypper/atom-install.sh
-bash scripts/zypper/crystal-install.sh
 bash scripts/zypper/devel-basis-install.sh
-bash scripts/zypper/elixir-install.sh
 bash scripts/zypper/fish-install.sh
 bash scripts/zypper/google-chrome-install.sh
 bash scripts/zypper/node-install.sh
 bash scripts/zypper/tig-install.sh
 bash scripts/zypper/visual-studio-code-install.sh
+
+# Prefer docker over native install
+# bash scripts/zypper/crystal-install.sh
+# bash scripts/zypper/elixir-install.sh
