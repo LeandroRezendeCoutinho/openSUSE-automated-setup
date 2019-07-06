@@ -11,6 +11,7 @@ bash scripts/zypper/devel-basis-install.sh
 bash scripts/zypper/docker-install.sh
 bash scripts/zypper/fish-install.sh
 bash scripts/zypper/google-chrome-install.sh
+bash scripts/zypper/htop-install.sh
 bash scripts/zypper/node-install.sh
 bash scripts/zypper/tig-install.sh
 bash scripts/zypper/tmux-install.sh

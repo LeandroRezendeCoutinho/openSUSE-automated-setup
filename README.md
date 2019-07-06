@@ -28,6 +28,7 @@ bash flatpak-setup.sh
 * elixir(disabled)
 * fish shell
 * google chrome
+* htop
 * tig
 * tmux
 * visual studio code
