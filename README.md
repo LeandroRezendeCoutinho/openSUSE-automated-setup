@@ -18,6 +18,11 @@ bash scripts/extra/'package_name'-install.sh
 bash flatpak-setup.sh
 ```
 
+#### Environmento setup
+```
+bash environment-setup.sh
+```
+
 ### List of packages
 
 ##### Zypper list
@@ -38,3 +43,6 @@ bash flatpak-setup.sh
 * heroku
 * yanr
 * zoom
+
+### Environment setup list
+* fish shell

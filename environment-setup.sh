@@ -1,0 +1,1 @@
+bash scripts/setup/fish-setup.sh
