@@ -46,3 +46,4 @@ bash environment-setup.sh
 
 ### Environment setup list
 * fish shell
+* tmux
