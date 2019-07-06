@@ -7,3 +7,6 @@ then
 fi
 
 zypper --non-interactive install docker docker-compose
+
+systemctl enable docker
+systemctl start docker
