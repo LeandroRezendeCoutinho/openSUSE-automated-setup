@@ -8,5 +8,6 @@ fi
 
 zypper --non-interactive install --type pattern devel_basis
 zypper --non-interactive install libopenssl-devel
-zypper --non-interactive install readline-devel 
+zypper --non-interactive install readline-devel
 zypper --non-interactive install zlib-devel
+zypper --non-interactive install cmake
