@@ -11,3 +11,4 @@ zypper --non-interactive install libopenssl-devel
 zypper --non-interactive install readline-devel
 zypper --non-interactive install zlib-devel
 zypper --non-interactive install cmake
+zypper --non-interactive install gcc-c++ 
