@@ -1,0 +1,12 @@
+#!bin/bash
+
+if [ ! "`whoami`" = "root" ]
+then
+    echo "Use sudo to run this script"
+    exit 1
+fi
+
+bash scripts/flatpak/dbeaver-install.sh
+bash scripts/flatpak/postman-install.sh
+bash scripts/flatpak/slack-install.sh
+bash scripts/flatpak/spotify-install.sh
