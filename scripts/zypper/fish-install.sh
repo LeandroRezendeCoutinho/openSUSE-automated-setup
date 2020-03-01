@@ -6,6 +6,6 @@ then
     exit 1
 fi
 
-zypper --non-interactive install fish
+zypper -y install fish
 
 chsh -s /usr/bin/fish

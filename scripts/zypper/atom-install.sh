@@ -10,5 +10,5 @@ sh -c 'echo -e "[Atom]\nname=Atom Editor\nbaseurl=https://packagecloud.io/AtomEd
 
 zypper --gpg-auto-import-keys refresh
 
-zypper --non-interactive install gconf2
-zypper --non-interactive install atom
+zypper -y install gconf2
+zypper -y install atom

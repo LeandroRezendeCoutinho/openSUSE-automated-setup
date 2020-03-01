@@ -6,9 +6,9 @@ then
     exit 1
 fi
 
-zypper --non-interactive install --type pattern devel_basis
-zypper --non-interactive install libopenssl-devel
-zypper --non-interactive install readline-devel
-zypper --non-interactive install zlib-devel
-zypper --non-interactive install cmake
-zypper --non-interactive install gcc-c++ 
+zypper -y install --type pattern devel_basis
+zypper -y install libopenssl-devel
+zypper -y install readline-devel
+zypper -y install zlib-devel
+zypper -y install cmake
+zypper -y install gcc-c++ 

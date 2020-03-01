@@ -12,4 +12,4 @@ sh -c 'echo -e "[code]\nname=Visual Studio Code\nbaseurl=https://packages.micros
 
 zypper refresh
 
-zypper --non-interactive install code
+zypper -y install code
