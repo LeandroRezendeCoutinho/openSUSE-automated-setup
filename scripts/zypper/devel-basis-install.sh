@@ -9,6 +9,8 @@ fi
 zypper -y install --type pattern devel_basis
 zypper -y install libopenssl-devel
 zypper -y install readline-devel
+zypper -y install libyaml-devel
+zypper -y install sqlite3-devel
 zypper -y install zlib-devel
 zypper -y install cmake
-zypper -y install gcc-c++ 
+zypper -y install gcc-c++
