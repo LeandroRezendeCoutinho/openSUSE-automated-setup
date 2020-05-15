@@ -6,7 +6,7 @@ then
     exit 1
 fi
 
-zypper -y install docker docker-compose
+zypper --non-interactive install docker docker-compose
 
 systemctl enable docker
 systemctl start docker

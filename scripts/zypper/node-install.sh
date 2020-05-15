@@ -6,4 +6,4 @@ then
     exit 1
 fi
 
-sudo zypper -y install nodejs-common
+sudo zypper --non-interactive install nodejs-common

@@ -6,4 +6,4 @@ then
     exit 1
 fi
 
-zypper -y install qbittorrent
+zypper --non-interactive install qbittorrent

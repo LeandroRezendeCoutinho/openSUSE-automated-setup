@@ -6,4 +6,4 @@ then
     exit 1
 fi
 
-zypper -y install htop
+zypper --non-interactive install htop

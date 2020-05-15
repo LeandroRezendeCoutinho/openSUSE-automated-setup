@@ -5,7 +5,7 @@ wget https://zoom.us/linux/download/pubkey
 
 rpm --import pubkey
 
-zypper -y install zoom*.rpm
+zypper --non-interactive install zoom*.rpm
 
 rm pubkey
 rm zoom_openSUSE_x86_64.rpm
