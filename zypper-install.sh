@@ -7,6 +7,7 @@ then
 fi
 
 bash scripts/zypper/atom-install.sh
+bash scripts/zypper/crystal-deps-install.sh
 bash scripts/zypper/devel-basis-install.sh
 bash scripts/zypper/docker-install.sh
 bash scripts/zypper/fish-install.sh
