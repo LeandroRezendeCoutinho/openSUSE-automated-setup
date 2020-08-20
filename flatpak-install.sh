@@ -11,3 +11,4 @@ bash scripts/flatpak/franz-install.sh
 bash scripts/flatpak/postman-install.sh
 bash scripts/flatpak/slack-install.sh
 bash scripts/flatpak/spotify-install.sh
+bash scripts/flatpak/zoom-install.sh
