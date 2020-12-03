@@ -27,16 +27,19 @@ bash environment-setup.sh
 
 ##### Zypper list
 * atom
-* crystal(disabled)
+* crystal lang deps
 * devel-basis
 * docker
-* elixir(disabled)
-* fish shell
 * google chrome
 * htop
 * tig
 * tmux
 * visual studio code
+* zsh
+
+###### Zypper list(disabled)
+* elixir(disabled)
+* fish(disabled)
 
 ##### Extra list
 * asdf
@@ -45,6 +48,9 @@ bash environment-setup.sh
 * zoom
 
 ### Environment setup list
-* fish shell
+* docker
+* flatpak
 * git
+* swappiness
 * tmux
+* zsh
