@@ -7,5 +7,8 @@ bash scripts/setup/swappiness-setup.sh
 bash scripts/setup/tmux-setup.sh
 bash scripts/setup/zsh-setup.sh
 
+# gogh theme
+export TERMINAL=gnome-terminal
+
 # disabled
 # bash scripts/setup/fish-setup.sh

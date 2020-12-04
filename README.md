@@ -8,6 +8,11 @@ This repo aims to simplify and automate development environmemt for users of ope
 sudo bash zypper-install.sh
 ```
 
+#### Environmento setup
+```
+bash environment-setup.sh
+```
+
 #### Optional extra packages(use sudo if required)
 ```
 bash scripts/extra/'package_name'-install.sh
@@ -15,12 +20,7 @@ bash scripts/extra/'package_name'-install.sh
 
 #### Flatpak setup
 ```
-bash flatpak-setup.sh
-```
-
-#### Environmento setup
-```
-bash environment-setup.sh
+bash flatpak-install.sh
 ```
 
 ### List of packages
