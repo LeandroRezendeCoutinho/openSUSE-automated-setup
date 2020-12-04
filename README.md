@@ -30,6 +30,7 @@ bash environment-setup.sh
 * crystal lang deps
 * devel-basis
 * docker
+* dotnet
 * google chrome
 * htop
 * tig
