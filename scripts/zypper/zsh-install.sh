@@ -8,3 +8,5 @@ fi
 
 zypper --non-interactive install zsh
 
+chsh -s $(which zsh)
+
