@@ -16,6 +16,7 @@ bash scripts/zypper/google-chrome-install.sh
 bash scripts/zypper/htop-install.sh
 bash scripts/zypper/opera-install.sh
 bash scripts/zypper/qbittorrent-install.sh
+bash scripts/zypper/sublime-text-install.sh
 bash scripts/zypper/tig-install.sh
 bash scripts/zypper/tmux-install.sh
 bash scripts/zypper/virtualbox-install.sh
