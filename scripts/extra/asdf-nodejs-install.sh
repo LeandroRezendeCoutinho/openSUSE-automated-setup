@@ -7,7 +7,6 @@ export GNUPGHOME="${ASDF_DIR:-$HOME/.asdf}/keyrings/nodejs" && mkdir -p "$GNUPGH
 # Imports Node.js release team's OpenPGP keys to the keyring
 bash ~/.asdf/plugins/nodejs/bin/import-release-team-keyring
 
-asdf install nodejs 14.15.1
+asdf install nodejs 14.16.1
 
-asdf global nodejs 14.15.1
-
+asdf global nodejs 14.16.1
