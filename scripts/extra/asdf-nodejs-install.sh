@@ -1,12 +1,7 @@
 #!bin/bash
 
-asdf plugin-add nodejs
+asdf plugin add nodejs https://github.com/asdf-vm/asdf-nodejs.git
 
-export GNUPGHOME="${ASDF_DIR:-$HOME/.asdf}/keyrings/nodejs" && mkdir -p "$GNUPGHOME" && chmod 0700 "$GNUPGHOME"
+asdf install nodejs 16.13.2
 
-# Imports Node.js release team's OpenPGP keys to the keyring
-bash ~/.asdf/plugins/nodejs/bin/import-release-team-keyring
-
-asdf install nodejs 14.16.1
-
-asdf global nodejs 14.16.1
+asdf global nodejs 16.13.2
