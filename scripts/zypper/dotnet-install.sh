@@ -13,4 +13,4 @@ wget https://packages.microsoft.com/config/opensuse/15/prod.repo
 mv prod.repo /etc/zypp/repos.d/microsoft-prod.repo
 chown root:root /etc/zypp/repos.d/microsoft-prod.repo
 
-zypper --non-interactive install dotnet-sdk-5.0
+zypper --non-interactive install dotnet-sdk-6.0
