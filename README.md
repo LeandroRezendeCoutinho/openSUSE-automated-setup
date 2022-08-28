@@ -26,27 +26,31 @@ bash flatpak-install.sh
 ### List of packages
 
 ##### Zypper list
-* atom
 * crystal lang deps
 * devel-basis
 * docker
-* dotnet
+* elixir lang deps
 * google chrome
 * htop
+* qbittorrent
+* sublime text
 * tig
 * tmux
 * visual studio code
 * zsh
 
-###### Zypper list(disabled)
-* elixir(disabled)
-* fish(disabled)
+###### Flatpak
+* dbeaver
+* franz
+* postman
+* slack
+* spotify
+* zoom
 
 ##### Extra list
 * asdf
-* heroku
-* yanr
-* zoom
+* asdf-node
+* yarn
 
 ### Environment setup list
 * docker

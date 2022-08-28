@@ -6,4 +6,4 @@ then
     exit 1
 fi
 
-zypper --non-interactive install elixir
+flatpak install flathub com.discordapp.Discord

@@ -1,3 +1,3 @@
 echo 'Configuring swappiness'
 
-sudo sysctl vm.swappiness=10
+sudo sysctl vm.swappiness=1
