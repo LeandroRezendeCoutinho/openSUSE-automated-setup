@@ -26,10 +26,12 @@ bash flatpak-install.sh
 ### List of packages
 
 ##### Zypper list
+* atom
 * crystal lang deps
 * devel-basis
 * docker
 * elixir lang deps
+* fish
 * google chrome
 * htop
 * qbittorrent
@@ -37,10 +39,10 @@ bash flatpak-install.sh
 * tig
 * tmux
 * visual studio code
-* zsh
 
-###### Flatpak
+##### Flatpak
 * dbeaver
+* discord
 * franz
 * postman
 * slack
@@ -56,6 +58,7 @@ bash flatpak-install.sh
 * docker
 * flatpak
 * git
+* open-vpn
 * swappiness
 * tmux
-* zsh
+* fish
