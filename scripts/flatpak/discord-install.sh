@@ -6,4 +6,4 @@ then
     exit 1
 fi
 
-flatpak install flathub com.discordapp.Discord
+flatpak install --assumeyes flathub com.discordapp.Discord
