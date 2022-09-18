@@ -7,5 +7,3 @@ then
 fi
 
 zypper --non-interactive install fish
-
-chsh -s /usr/bin/fish
