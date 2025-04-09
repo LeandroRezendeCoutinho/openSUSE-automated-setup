@@ -6,7 +6,6 @@ then
     exit 1
 fi
 
-bash scripts/zypper/atom-install.sh
 bash scripts/zypper/crystal-deps-install.sh
 bash scripts/zypper/devel-basis-install.sh
 bash scripts/zypper/docker-install.sh
