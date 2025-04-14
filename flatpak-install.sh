@@ -7,8 +7,8 @@ then
 fi
 
 bash scripts/flatpak/dbeaver-install.sh
-bash scripts/flatpak/discord-install.sh
-bash scripts/flatpak/franz-install.sh
+# bash scripts/flatpak/discord-install.sh
+# bash scripts/flatpak/franz-install.sh
 bash scripts/flatpak/postman-install.sh
 bash scripts/flatpak/slack-install.sh
 bash scripts/flatpak/spotify-install.sh

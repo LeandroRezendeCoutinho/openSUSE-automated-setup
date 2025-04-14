@@ -6,9 +6,11 @@ then
     exit 1
 fi
 
+bash scripts/zypper/asdf-install.sh
 bash scripts/zypper/crystal-deps-install.sh
 bash scripts/zypper/devel-basis-install.sh
 bash scripts/zypper/docker-install.sh
+bash scripts/zypper/edge-install.sh
 bash scripts/zypper/elixir-deps-install.sh
 bash scripts/zypper/fish-install.sh
 bash scripts/zypper/google-chrome-install.sh
