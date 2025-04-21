@@ -8,7 +8,7 @@ echo 'and not set -q TMUX' >> ~/.config/fish/config.fish
 echo '  exec tmux' >> ~/.config/fish/config.fish
 echo 'end' >> ~/.config/fish/config.fish
 echo ''>> ~/.config/fish/config.fish
-echo 'source ~/.asdf/asdf.fish' >> ~/.config/fish/config.fish
+echo "/home/leandro/.local/bin/mise activate fish | source" >> ~/.config/fish/config.fish
 
 curl -L https://get.oh-my.fish | fish
 
