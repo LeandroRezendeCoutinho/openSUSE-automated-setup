@@ -14,3 +14,4 @@ zypper --non-interactive install sqlite3-devel
 zypper --non-interactive install zlib-devel
 zypper --non-interactive install cmake
 zypper --non-interactive install gcc-c++
+zypper --non-interactive install postgresql-devel
