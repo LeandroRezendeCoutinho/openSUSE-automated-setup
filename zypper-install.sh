@@ -13,6 +13,7 @@ bash scripts/zypper/docker-install.sh
 bash scripts/zypper/edge-install.sh
 bash scripts/zypper/elixir-deps-install.sh
 bash scripts/zypper/fish-install.sh
+bash scripts/zypper/gnome-terminal-install.sh
 bash scripts/zypper/google-chrome-install.sh
 bash scripts/zypper/htop-install.sh
 bash scripts/zypper/qbittorrent-install.sh
