@@ -15,3 +15,5 @@ zypper --non-interactive install zlib-devel
 zypper --non-interactive install cmake
 zypper --non-interactive install gcc-c++
 zypper --non-interactive install postgresql-devel
+zypper --non-interactive install ruby-devel
+zypper --non-interactive install libffi-devel

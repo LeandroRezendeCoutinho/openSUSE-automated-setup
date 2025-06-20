@@ -10,7 +10,7 @@ echo 'end' >> ~/.config/fish/config.fish
 echo ''>> ~/.config/fish/config.fish
 echo "/home/leandro/.local/bin/mise activate fish | source" >> ~/.config/fish/config.fish
 
-curl -L https://get.oh-my.fish | fish
+curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install | fish
 
 curl https://git.io/fisher --create-dirs -sLo ~/.config/fish/functions/fisher.fish
 
