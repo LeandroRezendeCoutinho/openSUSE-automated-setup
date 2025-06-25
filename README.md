@@ -10,7 +10,7 @@ sudo bash zypper-install.sh
 
 #### Environmento setup
 ```
-bash environment-setup.sh
+bash setup.sh
 ```
 
 #### Optional extra packages(use sudo if required)
@@ -26,19 +26,26 @@ bash flatpak-install.sh
 ### List of packages
 
 ##### Zypper list
-* atom
+* alacritty
+* asdf
 * crystal lang deps
 * devel-basis
 * docker
+* dotnet
+* edge
 * elixir lang deps
 * fish
+* gnome-terminal
 * google chrome
 * htop
+* opera
 * qbittorrent
 * sublime text
 * tig
 * tmux
+* vistual box
 * visual studio code
+* zsh
 
 ##### Flatpak
 * dbeaver
@@ -58,7 +65,12 @@ bash flatpak-install.sh
 * docker
 * flatpak
 * git
+* mise
 * open-vpn
 * swappiness
 * tmux
+* zsh
 * fish
+
+### Attention
+Some packages are optional and are not active in base scripts
